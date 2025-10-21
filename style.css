@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 209, 79);
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+header {
+   display: flex; 
+   align-items: center;
+   background-color: rgb(249, 194, 38);
+
+}
+
+.button {
+    text-decoration: dotted;
+    color: rgb(146, 90, 0);
+}
+
+nav {
+   display: flex;
+   border: 3px solid rgb(225, 139, 0);
+   background-color: rgb(249, 194, 38);
+   color: rgb(173, 107, 0);
+   justify-content: space-around;
+
+}
+
+.nav-link {
+   text-decoration: none;
+   color: rgb(201, 124, 0);
+   margin: 10px;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+.info {
+  display: flex ;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+
+article {
+    background-color: rgb(255, 248, 110);
+    padding: 20px;
+    margin: 10px;
+    width: 400px ;
+   height: 500px;
+}
+
+footer {
+   display: flex;
+}
+
+h2 {
+   color: rgb(181, 172, 0);
+}
+.info p {
+   color: rgb(205, 195, 0);
+}
+.article-but{
+   text-decoration: none;
+   font-size: 20px;
+   background-color: rgb(255, 243, 0);
+   color: black;
+   text-align: center;
+   padding: 5px;
+}
+.Lucky-toys {
+   font-size: 50px;
+   color: rgb(173, 118, 0);
+}
